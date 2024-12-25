@@ -1,0 +1,45 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Warna latar belakang */
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    text-align: center;
+  }
+.animation-container {
+    width: 187.8px; /* Sesuaikan ukuran dengan gambar Anda */
+    height: 330.3px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  #animation {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .buttons {
+    margin-top: 20px;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
